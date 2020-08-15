@@ -8,7 +8,7 @@ function Checkout() {
     return (
         <div className="checkout">
             <div className="checkout__left">
-                <img className="checkout__ad" src="https://images-eu.ssl-images-amazon.com/images/G/31/img20/Books/062020/Bookbazaar/Header_showcase_1500x250.jpg" />
+                <img className="checkout__ad" src="https://images-eu.ssl-images-amazon.com/images/G/31/img20/Books/062020/Bookbazaar/Header_showcase_1500x250.jpg" alt=""/>
                 {(basket.length === 0) ?
                     <div>
                         <h2>You shopping bag is empty</h2>
